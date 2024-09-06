@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+header{
+    background-color: black;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+main{
+    background-color: black;
+}
+.iguanaprincipal{
+    background-image: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+.rectangulo1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 75px;
+    flex-wrap: wrap;
+}
+.texto1{
+    width: 32%;
+}
+.texto1 p{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1A13;
+    padding: 50px;
+}
+.caracteristicas h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.icons{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.icons div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 196.55px;
+}
+.icons p{
+    margin-top: 16px;
+    font-size: 24px;
+}
+i{
+    font-size: 50px;
+}
+.barridoimagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 75px;
+}
+.barridoimagenes img{
+    width: 316px;
+    height: 202px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    background-color: #1E1A13;
+    height: 50px;
+}
+a,:visited{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    font-size: 20px;
+}
