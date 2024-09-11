@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: white;
 }
 header {
@@ -23,6 +23,7 @@ main {
 }
 .iguanaprincipal {
   background-image: url(../img/bg-header.jpg);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
