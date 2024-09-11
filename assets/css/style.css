@@ -19,7 +19,7 @@ h1 {
   font-weight: 500;
 }
 main {
-  background-color: black;
+  background: linear-gradient(rgba(7, 6, 6, 0), #004e5c);
 }
 .iguanaprincipal {
   background-image: url(../img/bg-header.jpg);
