@@ -19,6 +19,7 @@ header {
 h1 {
   font-size: 50px;
   font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 main {
   background: linear-gradient(rgba(0, 0, 0, 0), #004e5c);
