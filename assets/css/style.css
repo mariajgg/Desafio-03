@@ -91,7 +91,13 @@ i {
 .barridoimagenes img {
   width: 316px;
   height: 202px;
+  transition: transform 0.3s ease-in-out;
 }
+
+.barridoimagenes img:hover {
+  transform: scale(1.05);
+}
+
 footer {
   display: flex;
   justify-content: center;
